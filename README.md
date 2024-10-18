@@ -6,8 +6,8 @@ This mod adds a lot of food. This includes bacon, popcorn, tacos, pizza, and mor
 
 Version Format: 1*.0**.0***
 
-\* Mod version prefix (Constant at 1)
-\** Mod version (Changes every new Minecraft version)
+\* Mod version prefix (Constant at 1)<br>
+\** Mod version (Changes every new Minecraft version)<br>
 \*** Mod subversion (Features added during the same Minecraft version)
 
 
