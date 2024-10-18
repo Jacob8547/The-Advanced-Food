@@ -23,3 +23,5 @@ https://www.curseforge.com/minecraft/mc-mods/appleskin
 FAQ:
 Q: Can I add this mod to my mod pack?
 A: Of course! Just credit me please.
+
+## (Source code coming soon)
