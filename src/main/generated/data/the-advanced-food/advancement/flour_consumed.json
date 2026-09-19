@@ -1,0 +1,27 @@
+{
+  "parent": "the-advanced-food:hammer_crafted",
+  "criteria": {
+    "flour_consumed": {
+      "conditions": {
+        "item": {
+          "items": "the-advanced-food:flour"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "Forget that flour is dry!",
+    "frame": "goal",
+    "icon": {
+      "id": "the-advanced-food:flour"
+    },
+    "title": "Cough Cough"
+  },
+  "requirements": [
+    [
+      "flour_consumed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:cooking_oil",
+    "the-advanced-food:flour",
+    "the-advanced-food:corn"
+  ],
+  "result": {
+    "count": 3,
+    "id": "the-advanced-food:taco_shell"
+  }
+}

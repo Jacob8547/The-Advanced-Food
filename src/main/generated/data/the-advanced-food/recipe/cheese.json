@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:cream",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "the-advanced-food:cheese"
+  }
+}

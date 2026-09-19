@@ -1,0 +1,26 @@
+{
+  "parent": "the-advanced-food:the_advanced_food",
+  "criteria": {
+    "lettuce_consumed": {
+      "conditions": {
+        "item": {
+          "items": "the-advanced-food:lettuce"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "Consume some lettuce!",
+    "icon": {
+      "id": "the-advanced-food:lettuce"
+    },
+    "title": "Lettuce Feast!"
+  },
+  "requirements": [
+    [
+      "lettuce_consumed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

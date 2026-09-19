@@ -1,0 +1,28 @@
+{
+  "parent": "the-advanced-food:acquire_corn",
+  "criteria": {
+    "popcorn_crafted": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the-advanced-food:popcorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Make some popcorn!",
+    "icon": {
+      "id": "the-advanced-food:popcorn"
+    },
+    "title": "The Buttery Stuff"
+  },
+  "requirements": [
+    [
+      "popcorn_crafted"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

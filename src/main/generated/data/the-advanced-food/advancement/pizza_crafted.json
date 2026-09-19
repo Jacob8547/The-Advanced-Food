@@ -1,0 +1,29 @@
+{
+  "parent": "the-advanced-food:the_advanced_food",
+  "criteria": {
+    "pizza_crafted": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the-advanced-food:pizza"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Make a pizza!",
+    "frame": "goal",
+    "icon": {
+      "id": "the-advanced-food:pizza"
+    },
+    "title": "Pizza Pizza Daddy-O"
+  },
+  "requirements": [
+    [
+      "pizza_crafted"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

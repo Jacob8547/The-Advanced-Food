@@ -1,0 +1,26 @@
+{
+  "parent": "the-advanced-food:hammer_crafted",
+  "criteria": {
+    "cooking_oil_consumed": {
+      "conditions": {
+        "item": {
+          "items": "the-advanced-food:cooking_oil"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "Drink cooking oil!",
+    "icon": {
+      "id": "the-advanced-food:cooking_oil"
+    },
+    "title": "This Tastes Bad"
+  },
+  "requirements": [
+    [
+      "cooking_oil_consumed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

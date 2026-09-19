@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:dried_kelp",
+    "minecraft:dried_kelp",
+    "minecraft:cod"
+  ],
+  "result": {
+    "id": "the-advanced-food:sushi"
+  }
+}

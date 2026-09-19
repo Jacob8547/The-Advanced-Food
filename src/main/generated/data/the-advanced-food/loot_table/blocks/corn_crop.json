@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "the-advanced-food:corn_crop",
+        "state": {
+          "age": "6"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:uniform_bonus_count",
+            "parameters": {
+              "bonusMultiplier": 1
+            }
+          },
+          "name": "the-advanced-food:corn"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:match_block",
+            "blocks": "the-advanced-food:corn_crop",
+            "state": {
+              "age": "6"
+            }
+          },
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.125
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the-advanced-food:corn"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:inverted",
+        "term": {
+          "type": "minecraft:match_block",
+          "blocks": "the-advanced-food:corn_crop",
+          "state": {
+            "age": "6"
+          }
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the-advanced-food:corn_seeds"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

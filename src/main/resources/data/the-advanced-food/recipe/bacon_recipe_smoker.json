@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "experience": 1,
-  "cookingtime": 100,
-  "ingredient": "minecraft:cooked_porkchop",
-  "result": {
-    "id": "the-advanced-food:bacon"
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:cheese",
+    "minecraft:cooked_porkchop",
+    "minecraft:bread",
+    "the-advanced-food:tomato"
+  ],
+  "result": {
+    "id": "the-advanced-food:pizza"
+  }
+}

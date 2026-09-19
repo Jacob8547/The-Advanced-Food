@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:hammer",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "the-advanced-food:flour"
+  }
+}

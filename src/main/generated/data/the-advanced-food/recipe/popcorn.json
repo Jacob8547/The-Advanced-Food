@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "0": "the-advanced-food:popped_corn",
+    "1": "the-advanced-food:empty_popcorn_bucket"
+  },
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "result": {
+    "id": "the-advanced-food:popcorn"
+  }
+}

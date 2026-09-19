@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": "the-advanced-food:popped_corn",
+  "result": {
+    "id": "the-advanced-food:burnt_corn"
+  }
+}

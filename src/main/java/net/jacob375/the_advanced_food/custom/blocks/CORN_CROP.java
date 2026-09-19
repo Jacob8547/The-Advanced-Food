@@ -1,6 +1,6 @@
 package net.jacob375.the_advanced_food.custom.blocks;
 
-import net.jacob375.the_advanced_food.ModItems;
+import net.jacob375.the_advanced_food.helpers.ModItems;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;

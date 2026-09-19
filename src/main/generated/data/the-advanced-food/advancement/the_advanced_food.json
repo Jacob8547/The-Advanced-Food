@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "the_advanced_food": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "background": "the-advanced-food:screens/advancement_background",
+    "description": "Welcome to The Advanced Food!",
+    "hidden": true,
+    "icon": {
+      "id": "the-advanced-food:bacon"
+    },
+    "title": "The Advanced Food"
+  },
+  "requirements": [
+    [
+      "the_advanced_food"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

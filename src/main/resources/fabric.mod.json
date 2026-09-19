@@ -22,6 +22,9 @@
 		],
 		"modmenu": [
 			"net.jacob375.the_advanced_food.config.ModMenuImplementation"
+		],
+		"fabric-datagen": [
+			"net.jacob375.the_advanced_food.helpers.dataGen.ModDataGenerator"
 		]
 	},
 	"mixins": [],

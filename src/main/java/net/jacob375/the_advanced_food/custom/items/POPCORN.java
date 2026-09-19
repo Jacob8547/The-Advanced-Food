@@ -1,6 +1,6 @@
 package net.jacob375.the_advanced_food.custom.items;
 
-import net.jacob375.the_advanced_food.ModItems;
+import net.jacob375.the_advanced_food.helpers.ModItems;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

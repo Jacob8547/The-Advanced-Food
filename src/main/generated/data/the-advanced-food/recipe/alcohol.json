@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:cider",
+    "minecraft:sugar",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "the-advanced-food:alcohol"
+  }
+}

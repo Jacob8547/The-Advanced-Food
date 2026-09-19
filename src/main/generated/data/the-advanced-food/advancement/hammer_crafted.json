@@ -1,0 +1,28 @@
+{
+  "parent": "the-advanced-food:the_advanced_food",
+  "criteria": {
+    "hammer_crafted": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the-advanced-food:hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Craft a normal-looking hammer!",
+    "icon": {
+      "id": "the-advanced-food:hammer"
+    },
+    "title": "Digging Tool?"
+  },
+  "requirements": [
+    [
+      "hammer_crafted"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

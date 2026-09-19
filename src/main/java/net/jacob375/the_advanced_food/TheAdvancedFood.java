@@ -2,6 +2,9 @@ package net.jacob375.the_advanced_food;
 
 import net.fabricmc.api.ModInitializer;
 import net.jacob375.the_advanced_food.config.ModConfigManager;
+import net.jacob375.the_advanced_food.helpers.ModBlocks;
+import net.jacob375.the_advanced_food.helpers.ModFeatures;
+import net.jacob375.the_advanced_food.helpers.ModItems;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "#minecraft:eggs",
+    "F": "the-advanced-food:flour",
+    "M": "minecraft:milk_bucket",
+    "S": "minecraft:sugar"
+  },
+  "pattern": [
+    "MMM",
+    "SES",
+    "FFF"
+  ],
+  "result": {
+    "count": 6,
+    "id": "the-advanced-food:pancake"
+  }
+}

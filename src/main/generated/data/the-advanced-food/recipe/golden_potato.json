@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "0": "minecraft:gold_ingot",
+    "4": "minecraft:potato"
+  },
+  "pattern": [
+    "000",
+    "040",
+    "000"
+  ],
+  "result": {
+    "id": "the-advanced-food:golden_potato"
+  }
+}
