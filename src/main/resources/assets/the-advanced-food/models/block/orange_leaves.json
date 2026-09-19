@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "the-advanced-food:block/orange_leaves"
+  }
+}

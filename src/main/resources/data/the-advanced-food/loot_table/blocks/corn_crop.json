@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "the-advanced-food:corn_crop",
+                "state": {
+                  "age": "6"
+                }
+              },
+              "name": "the-advanced-food:corn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:match_block",
+                    "blocks": "the-advanced-food:corn_crop",
+                    "state": {
+                      "age": "6"
+                    }
+                  },
+                  {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.125
+                  }
+                ]
+              },
+              "name": "the-advanced-food:corn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:inverted",
+            "term": {
+              "type": "minecraft:match_block",
+              "blocks": "the-advanced-food:corn_crop",
+              "state": {
+                "age": "6"
+              }
+            }
+          },
+          "name": "the-advanced-food:corn_seeds"
+        }
+      ]
+    }
+  ]
+}

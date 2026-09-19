@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": [
+    "the-advanced-food:corn"
+  ],
+  "result": {
+    "id": "the-advanced-food:popped_corn"
+  }
+}

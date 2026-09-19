@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potion",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "the-advanced-food:taco_shell",
+    "count": 1
+  }
+}

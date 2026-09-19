@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "the-advanced-food:lettuce"
+    },
+    "title": "Lettuce Feast",
+    "description": "Consume some lettuce!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lettuce_feast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the-advanced-food:lettuce"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "the-advanced-food:acquire_corn"
+}

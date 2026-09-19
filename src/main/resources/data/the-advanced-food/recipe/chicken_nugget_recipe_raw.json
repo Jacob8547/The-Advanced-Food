@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:chicken",
+    "the-advanced-food:cooking_oil",
+    "the-advanced-food:flour"
+  ],
+  "result": {
+    "id": "the-advanced-food:chicken_nugget",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:hammer",
+    "the-advanced-food:peanut"
+  ],
+  "result": {
+    "id": "the-advanced-food:cooking_oil",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "the-advanced-food",
+	"version": "${version}",
+	"name": "The Advanced Food",
+	"description": "Adds so much food, you won't know what to do with it all! Including: popcorn, bacon, tacos, and more!",
+	"authors": [
+		"Jacob375"
+	],
+	"contact": {
+		"homepage": "https://barrelsmp.net"
+	},
+	"license": "ARR",
+	"icon": "assets/the-advanced-food/logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jacob375.the_advanced_food.TheAdvancedFood"
+		],
+		"client": [
+			"net.jacob375.the_advanced_food.TheAdvancedFoodClient"
+		],
+		"modmenu": [
+			"net.jacob375.the_advanced_food.config.ModMenuImplementation"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"cloth-config": ">=26.3.158",
+		"modmenu": ">=21.0.0-beta.1"
+	}
+}

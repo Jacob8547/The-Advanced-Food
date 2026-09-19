@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the-advanced-food:hammer",
+    "minecraft:apple",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "the-advanced-food:cider",
+    "count": 1
+  }
+}

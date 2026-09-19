@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "the-advanced-food:cooking_oil"
+    },
+    "title": "This Tastes Bad",
+    "description": "Drink cooking oil!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_cooking_oil": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the-advanced-food:cooking_oil"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "the-advanced-food:acquire_corn"
+}
