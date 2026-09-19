@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "the-advanced-food:block/corn_crop_stage1"
+  }
+}

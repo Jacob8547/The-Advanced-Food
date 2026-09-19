@@ -1,4 +1,4 @@
-package net.jacob375.the_advanced_food.helpers.dataGen;
+package net.jacob375.the_advanced_food.helpers.dataGen.server;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
@@ -22,7 +22,7 @@ import net.minecraft.world.item.Item;
 
 public class ModAdvancementProvider extends FabricAdvancementProvider {
 
-    protected ModAdvancementProvider(FabricPackOutput output, CompletableFuture<Provider> registryLookup) {
+    public ModAdvancementProvider(FabricPackOutput output, CompletableFuture<Provider> registryLookup) {
         super(output, registryLookup);
     }
 

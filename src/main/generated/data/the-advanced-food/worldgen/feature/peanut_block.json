@@ -4,7 +4,7 @@
   "size": 6,
   "targets": [
     {
-      "state": { "id": "the-advanced-food:peanut_block" },
+      "state": "the-advanced-food:peanut_block",
       "target": {
         "predicate_type": "minecraft:tag_match",
         "tag": "minecraft:stone_ore_replaceables"

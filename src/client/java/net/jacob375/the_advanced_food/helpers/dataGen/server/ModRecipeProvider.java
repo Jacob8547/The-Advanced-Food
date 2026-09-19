@@ -1,4 +1,4 @@
-package net.jacob375.the_advanced_food.helpers.dataGen;
+package net.jacob375.the_advanced_food.helpers.dataGen.server;
 
 import java.util.concurrent.CompletableFuture;
 
