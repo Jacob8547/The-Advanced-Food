@@ -1,7 +1,8 @@
 # The Advanced Food Mod
+### To view source code, navigate to the respective branch!
 This mod adds a lot of food. This includes bacon, popcorn, tacos, pizza, and more! Also, advancements, plants, and blocks! Thanks for downloading this mod!
 
-**TAFM for Fabric is here! There is no plan to backport to any previous Forge versions at the moment.**
+**TAFM for Fabric and NeoForge is here! There is no plan to backport to any previous Forge versions at the moment.**
 
 Recommended Mods:<br>
 [https://modrinth.com/mod/jei](https://modrinth.com/mod/jei)<br>
