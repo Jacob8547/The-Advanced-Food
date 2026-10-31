@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "the_advanced_food:peanut_block",
+  "step": "underground_ores"
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "the_advanced_food:the_advanced_food",
+  "criteria": {
+    "chicken_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the_advanced_food:chicken_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Find a chicken nugget!",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "id": "the_advanced_food:chicken_nugget"
+    },
+    "title": "Dino Nuggy?"
+  },
+  "requirements": [
+    [
+      "chicken_nugget"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

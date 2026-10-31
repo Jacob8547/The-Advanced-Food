@@ -18,6 +18,7 @@ sourceSets.main.resources {
 }
 
 repositories {
+    maven { url = "https://maven.shedaniel.me/" }
 }
 
 base {
@@ -62,6 +63,7 @@ configurations {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
+    implementation "me.shedaniel.cloth:cloth-config-neoforge:${clothconfig_version}"
 }
 
 

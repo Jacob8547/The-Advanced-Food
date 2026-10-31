@@ -1,0 +1,29 @@
+{
+  "parent": "the_advanced_food:the_advanced_food",
+  "criteria": {
+    "acquire_corn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the_advanced_food:corn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Find corn on your adventure!",
+    "frame": "goal",
+    "icon": {
+      "id": "the_advanced_food:corn"
+    },
+    "title": "Corn Acquired"
+  },
+  "requirements": [
+    [
+      "acquire_corn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

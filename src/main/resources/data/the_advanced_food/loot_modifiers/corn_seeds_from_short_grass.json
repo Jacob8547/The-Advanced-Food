@@ -1,0 +1,11 @@
+{
+    "type": "the_advanced_food:add_item_with_chance",
+    "conditions": [
+        {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "minecraft:blocks/short_grass"
+        }
+    ],
+    "item": "the_advanced_food:corn_seeds",
+    "chance": 0.125
+}
