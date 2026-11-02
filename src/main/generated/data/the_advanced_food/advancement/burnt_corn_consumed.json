@@ -1,0 +1,26 @@
+{
+  "parent": "the_advanced_food:acquire_corn",
+  "criteria": {
+    "burnt_corn_consumed": {
+      "conditions": {
+        "item": {
+          "items": "the_advanced_food:burnt_corn"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "Consume burnt corn!",
+    "icon": {
+      "id": "the_advanced_food:burnt_corn"
+    },
+    "title": "Tastes like Rubber"
+  },
+  "requirements": [
+    [
+      "burnt_corn_consumed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

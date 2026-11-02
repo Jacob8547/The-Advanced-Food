@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "the_advanced_food:lettuce",
+    "the_advanced_food:cheese",
+    "minecraft:cooked_beef",
+    "the_advanced_food:taco_shell"
+  ],
+  "result": {
+    "id": "the_advanced_food:taco"
+  }
+}

@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class ModConfigManager {
-    private static final Path CONFIG_PATH = FabricLoader.getInstance().getConfigDir().resolve("the-advanced-food.json");
+    private static final Path CONFIG_PATH = FabricLoader.getInstance().getConfigDir().resolve("the_advanced_food.json");
     public static ModConfigValues CONFIG = new ModConfigValues();
 
     public static void load() {

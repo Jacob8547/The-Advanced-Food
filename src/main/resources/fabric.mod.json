@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "the-advanced-food",
+	"id": "the_advanced_food",
 	"version": "${version}",
 	"name": "The Advanced Food",
 	"description": "Adds so much food, you won't know what to do with it all! Including: popcorn, bacon, tacos, and more!",
@@ -11,7 +11,7 @@
 		"homepage": "https://jacob375.com"
 	},
 	"license": "ARR",
-	"icon": "assets/the-advanced-food/logo.png",
+	"icon": "assets/the_advanced_food/logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

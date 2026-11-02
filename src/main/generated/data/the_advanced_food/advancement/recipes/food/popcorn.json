@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_popped_corn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the_advanced_food:popped_corn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "the_advanced_food:popcorn"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_popped_corn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "the_advanced_food:popcorn"
+    ]
+  }
+}

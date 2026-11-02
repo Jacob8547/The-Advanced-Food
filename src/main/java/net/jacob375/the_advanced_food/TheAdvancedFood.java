@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TheAdvancedFood implements ModInitializer {
-	public static final String MOD_ID = "the-advanced-food";
+	public static final String MOD_ID = "the_advanced_food";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

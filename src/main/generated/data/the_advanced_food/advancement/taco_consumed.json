@@ -1,0 +1,27 @@
+{
+  "parent": "the_advanced_food:hammer_crafted",
+  "criteria": {
+    "taco_consumed": {
+      "conditions": {
+        "item": {
+          "items": "the_advanced_food:taco"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": "Eat a taco!",
+    "frame": "goal",
+    "icon": {
+      "id": "the_advanced_food:taco"
+    },
+    "title": "Supreme?"
+  },
+  "requirements": [
+    [
+      "taco_consumed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

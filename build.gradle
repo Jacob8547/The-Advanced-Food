@@ -36,7 +36,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"the-advanced-food" {
+		"the_advanced_food" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potato",
+    "the_advanced_food:cooking_oil"
+  ],
+  "result": {
+    "id": "the_advanced_food:french_fries"
+  }
+}
